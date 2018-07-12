@@ -36,7 +36,7 @@ For installation please download Python 3.6  from [Anaconda](https://www.anacond
 Open terminal and tryout below
 
 ```
-user@computer ~ $ source activate qmmm
+user@computer ~ $ source activate qmmm #I need conda activate qmmm
 (qmmm) user@computer ~ $ python -V
 Python 3.6.6 :: Anaconda, Inc.
 (qmmm) user@computer ~ $ python
@@ -47,7 +47,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 4 * np.pi
 12.566370614359172
 >>> quit()
-(qmmm) user@computer ~ $ source deactivate
+(qmmm) user@computer ~ $ source deactivate #I need conda deactivate
 user@computer ~ $
 ```
 Note: The initial output from the Python shell will look different for your system
